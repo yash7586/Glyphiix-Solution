@@ -31,22 +31,22 @@ export function About() {
 
   const whyTrust = [
     {
-      stat: '15+',
+      stat: '2.5+',
       label: 'Years Experience',
       description: 'Industry veterans with deep expertise across all digital disciplines.',
     },
     {
-      stat: '500+',
+      stat: '15+',
       label: 'Projects Delivered',
       description: 'From startups to Fortune 500 companies across 30+ industries.',
     },
     {
-      stat: '$50M+',
+      stat: '₹2.5lakh+',
       label: 'Revenue Generated',
       description: 'Measurable ROI and business impact for our clients.',
     },
     {
-      stat: '98%',
+      stat: '99.9%',
       label: 'Client Retention',
       description: 'Long-term partnerships built on trust and proven results.',
     },
@@ -133,7 +133,7 @@ export function About() {
                 So we built something different—an agency where every decision is data-driven, every strategy is results-focused, and every client relationship is a true partnership. We combine the creative excellence of top design studios with the analytical rigor of management consultancies.
               </p>
               <p>
-                Over 15 years and 500+ projects later, we've helped startups become industry leaders, SMBs scale to 8 figures, and enterprises dominate their markets. Our secret? We don't chase trends—we focus relentlessly on what actually moves the needle for your business.
+                Over 2.5 years and 15+ projects later, we've helped startups become industry leaders, SMBs scale to 8 figures, and enterprises dominate their markets. Our secret? We don't chase trends—we focus relentlessly on what actually moves the needle for your business.
               </p>
             </div>
           </motion.div>
@@ -237,7 +237,7 @@ export function About() {
               Let's Write Your Success Story
             </h2>
             <p className="text-xl text-gray-600 mb-10">
-              Join 500+ businesses that have transformed their digital presence and scaled to new heights with APEX. Your journey to market dominance starts with a conversation.
+              Join 15+ businesses that have transformed their digital presence and scaled to new heights with APEX. Your journey to market dominance starts with a conversation.
             </p>
             <a
               href="https://forms.google.com/your-form-link"

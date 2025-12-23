@@ -126,10 +126,10 @@ export function CaseStudies() {
           className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16"
         >
           {[
-            { number: '500+', label: 'Projects Completed' },
-            { number: '$50M+', label: 'Revenue Generated' },
-            { number: '250+', label: 'Happy Clients' },
-            { number: '98%', label: 'Client Retention' },
+            { number: '15+', label: 'Projects Completed' },
+            { number: '₹2.5lakh+', label: 'Revenue Generated' },
+            { number: '15+', label: 'Happy Clients' },
+            { number: '99.9%', label: 'Client Retention' },
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-4xl md:text-5xl text-indigo-600 mb-2">{stat.number}</div>

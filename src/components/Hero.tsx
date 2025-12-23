@@ -40,7 +40,7 @@ export function Hero() {
           className="inline-flex items-center gap-2 px-4 py-2 bg-black text-white border border-black mb-8"
         >
           <Sparkles size={16} />
-          <span className="text-sm font-medium">Trusted by 500+ Global Brands</span>
+          <span className="text-sm font-medium">Trusted by 15+ Indian Brands</span>
         </motion.div>
 
         <motion.h1
@@ -92,17 +92,17 @@ export function Hero() {
           className="mt-20 flex flex-wrap items-center justify-center gap-12 text-sm text-gray-600"
         >
           <div className="text-center">
-            <div className="text-3xl mb-1 font-bold text-black">500+</div>
+            <div className="text-3xl mb-1 font-bold text-black">15+</div>
             <div>Projects Delivered</div>
           </div>
           <div className="hidden sm:block w-px h-12 bg-gray-300" />
           <div className="text-center">
-            <div className="text-3xl mb-1 font-bold text-black">98%</div>
+            <div className="text-3xl mb-1 font-bold text-black">99.9%</div>
             <div>Client Satisfaction</div>
           </div>
           <div className="hidden sm:block w-px h-12 bg-gray-300" />
           <div className="text-center">
-            <div className="text-3xl mb-1 font-bold text-black">$50M+</div>
+            <div className="text-3xl mb-1 font-bold text-black">₹5Lac.+</div>
             <div>Revenue Generated</div>
           </div>
         </motion.div>

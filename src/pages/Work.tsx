@@ -28,8 +28,8 @@ export function Work() {
       results: [
         { metric: '412%', label: 'Increase in Qualified Demo Requests' },
         { metric: '3.4x', label: 'Conversion Rate Improvement' },
-        { metric: '#1–3', label: 'Google Rankings (Key Keywords)' },
-        { metric: '₹26 Cr+', label: 'New Revenue Generated (9 Months)' },
+        { metric: '#1–4', label: 'Google Rankings (Key Keywords)' },
+        { metric: '₹1.5lakh', label: 'New Revenue Generated (9 Months)' },
       ],
     },
   ];

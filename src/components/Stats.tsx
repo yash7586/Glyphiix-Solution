@@ -7,22 +7,22 @@ export function Stats() {
 
   const stats = [
     {
-      number: '500+',
-      label: 'Clients Worldwide',
-      description: 'From startups to Fortune 500 companies',
+      number: '15+',
+      label: 'Clients in India',
+      description: 'From startups to Fortune companies',
     },
     {
-      number: '15+',
+      number: '2.5+',
       label: 'Years Experience',
       description: 'Industry veterans driving innovation',
     },
     {
-      number: '98%',
+      number: '99.9%',
       label: 'Client Retention',
       description: 'Long-term partnerships built on results',
     },
     {
-      number: '$50M+',
+      number: '₹5Lac.+',
       label: 'Revenue Generated',
       description: 'Measurable ROI for our clients',
     },

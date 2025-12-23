@@ -98,18 +98,18 @@ export function Footer({ setCurrentPage }: FooterProps) {
               <div className="flex items-start gap-3">
                 <Mail size={18} className="mt-1 flex-shrink-0" />
                 <a href="mailto:hello@apex.agency" className="hover:text-white transition-colors">
-                  hello@apex.agency
+                  glyphiixsolution@gmail.com
                 </a>
               </div>
               <div className="flex items-start gap-3">
                 <Phone size={18} className="mt-1 flex-shrink-0" />
                 <a href="tel:+1234567890" className="hover:text-white transition-colors">
-                  +1 (234) 567-890
+                  +918750016908
                 </a>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin size={18} className="mt-1 flex-shrink-0" />
-                <span>Global Operations</span>
+                <span>Farrukhabad, U.P, India 209625 </span>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export function Footer({ setCurrentPage }: FooterProps) {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-            <p>&copy; {new Date().getFullYear()} APEX Digital Agency. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Glyphiix Solution. All rights reserved.</p>
             <div className="flex gap-6">
               <button className="hover:text-white transition-colors">Privacy Policy</button>
               <button className="hover:text-white transition-colors">Terms of Service</button>
