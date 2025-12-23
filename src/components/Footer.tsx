@@ -27,7 +27,7 @@ export function Footer({ setCurrentPage }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">Glyphiix</h3>
+            <h3 className="text-2xl font-bold mb-4 text-white">Glyphiix</h3>
             <p className="text-gray-400 mb-6">
               Premium digital agency delivering results-driven solutions for ambitious businesses worldwide.
             </p>
@@ -61,7 +61,7 @@ export function Footer({ setCurrentPage }: FooterProps) {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
+            <h4 className="font-semibold mb-4 text-white">Quick Links</h4>
             <nav className="space-y-2">
               {['home', 'services', 'about', 'work', 'contact'].map((page) => (
                 <button
@@ -77,7 +77,7 @@ export function Footer({ setCurrentPage }: FooterProps) {
 
           {/* Services */}
           <div>
-            <h4 className="font-semibold mb-4">Services</h4>
+            <h4 className="font-semibold mb-4 text-white">Services</h4>
             <nav className="space-y-2">
               {services.map((service) => (
                 <button
@@ -93,7 +93,7 @@ export function Footer({ setCurrentPage }: FooterProps) {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-semibold mb-4">Get In Touch</h4>
+            <h4 className="font-semibold mb-4 text-white">Get In Touch</h4>
             <div className="space-y-3 text-gray-400">
               <div className="flex items-start gap-3">
                 <Mail size={18} className="mt-1 flex-shrink-0" />

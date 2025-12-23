@@ -253,7 +253,7 @@ export function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl lg:text-5xl mb-6">
+            <h2 className="text-4xl lg:text-5xl mb-6 text-white">
               Don't Wait for the Perfect Moment
             </h2>
             <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
@@ -269,7 +269,7 @@ export function Contact() {
               <ArrowRight size={24} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <p className="text-sm text-gray-400 mt-6">
-              Trusted by 500+ businesses worldwide • 98% client satisfaction • Response within 24 hours
+              Trusted by 15+ businesses worldwide • 99.9% client satisfaction • Response within 24 hours
             </p>
           </motion.div>
         </div>

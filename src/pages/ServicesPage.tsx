@@ -223,7 +223,7 @@ export function ServicesPage() {
                 </div>
 
                 <div className="bg-black text-white p-8">
-                  <h3 className="text-xl mb-4">Expected Outcomes</h3>
+                  <h3 className="text-xl mb-4 text-white">Expected Outcomes</h3>
                   <ul className="space-y-3">
                     {service.outcomes.map((o, i) => (
                       <li key={i} className="flex gap-3">
@@ -241,7 +241,7 @@ export function ServicesPage() {
 
       {/* CTA */}
       <section className="py-16 md:py-24 bg-black text-white text-center">
-        <h2 className="text-3xl sm:text-5xl mb-6">
+        <h2 className="text-3xl sm:text-5xl mb-6 text-white">
           Ready to Transform Your Business?
         </h2>
         <p className="text-gray-300 mb-10 max-w-2xl mx-auto">

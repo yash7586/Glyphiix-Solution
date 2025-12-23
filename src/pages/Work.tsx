@@ -142,7 +142,7 @@ export function Work() {
           className="max-w-3xl mx-auto px-6"
         >
           <IndianRupee size={48} className="mx-auto mb-6" />
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-white">
             Ready to Scale Revenue?
           </h2>
           <p className="text-gray-300 mb-10 text-lg">
