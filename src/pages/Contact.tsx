@@ -60,7 +60,7 @@ export function Contact() {
               className="mb-16"
             >
               <a
-                href="https://forms.google.com/your-form-link"
+                href="https://calendly.com/abhishekrajput807668/client-consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-3 px-10 py-5 bg-black text-white hover:bg-gray-800 transition-all text-lg"
@@ -260,7 +260,7 @@ export function Contact() {
               The best time to invest in your digital presence was yesterday. The second best time is right now. Let's make it happen.
             </p>
             <a
-              href="https://forms.google.com/your-form-link"
+              href="https://calendly.com/abhishekrajput807668/client-consultation"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-10 py-5 bg-white text-black hover:bg-gray-100 transition-all text-lg"

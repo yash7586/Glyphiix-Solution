@@ -141,7 +141,7 @@ export function Services() {
           </p>
 
           <motion.a
-            href="https://forms.google.com/your-form-link"
+            href="https://calendly.com/abhishekrajput807668/client-consultation"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-slate-900 text-white rounded-full hover:bg-indigo-600 transition"
@@ -186,7 +186,7 @@ export function Services() {
                 </div>
 
                 <a
-                  href="https://forms.google.com/your-form-link"
+                  href="https://calendly.com/abhishekrajput807668/client-consultation"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-full hover:bg-indigo-600 transition"

@@ -213,7 +213,7 @@ export function CaseStudies() {
                       </div>
                     </div>
                     <motion.a
-                      href="https://forms.google.com/your-form-link"
+                      href="https://calendly.com/abhishekrajput807668/client-consultation"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full mt-8 px-6 py-3 bg-slate-900 text-white rounded-full hover:bg-indigo-600 transition-colors inline-flex items-center justify-center gap-2"
@@ -286,7 +286,7 @@ export function CaseStudies() {
             Let's create a custom strategy for your business. Book a free consultation and let's discuss your goals.
           </p>
           <motion.a
-            href="https://forms.google.com/your-form-link"
+            href="https://calendly.com/abhishekrajput807668/client-consultation"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-white text-slate-900 rounded-full hover:bg-indigo-600 hover:text-white transition-all"

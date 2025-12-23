@@ -79,7 +79,7 @@ export function Navigation({ currentPage, onNavigate }: NavigationProps) {
             {/* CTA Button - Desktop */}
             <div className="hidden md:block">
               <motion.a
-                href="https://forms.google.com/your-form-link"
+                href="https://calendly.com/abhishekrajput807668/client-consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-slate-900 text-white rounded-full hover:bg-indigo-600 transition-colors inline-block"
@@ -130,7 +130,7 @@ export function Navigation({ currentPage, onNavigate }: NavigationProps) {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: navLinks.length * 0.1 }}
-                href="https://forms.google.com/your-form-link"
+                href="https://calendly.com/abhishekrajput807668/client-consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-slate-900 text-white rounded-full text-xl mt-4"

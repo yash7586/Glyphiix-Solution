@@ -34,7 +34,7 @@ export function CTABanner() {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://forms.google.com/your-form-link"
+              href="https://calendly.com/abhishekrajput807668/client-consultation"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 px-8 py-4 bg-white text-black hover:bg-gray-100 transition-all"

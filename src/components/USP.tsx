@@ -87,7 +87,7 @@ export function USP() {
             Join 15+ companies that trust Glyphiix to deliver digital excellence. Let's discuss how we can transform your vision into reality.
           </p>
           <a
-            href="https://forms.google.com/your-form-link"
+            href="https://calendly.com/abhishekrajput807668/client-consultation"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-white text-black hover:bg-gray-100 transition-all"
