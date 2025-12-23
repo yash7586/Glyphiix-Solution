@@ -15,7 +15,7 @@ export function Hero() {
   // 🔓 Audio unlock (NO audible sound)
   useEffect(() => {
     const audio = new Audio("/typing.mp3");
-    audio.volume = 0.9;
+    audio.volume = 0.4;
     audio.muted = true;
 
     audio
