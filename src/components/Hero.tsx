@@ -3,7 +3,7 @@ import { motion, useInView } from "motion/react";
 import { ArrowRight, Sparkles } from "lucide-react";
 
 const text = "Transform Your Business Into a Digital Powerhouse";
-const TYPING_SPEED = 200; // ms
+const TYPING_SPEED = 100; // ms
 
 export function Hero() {
   const ref = useRef<HTMLHeadingElement>(null);
@@ -15,7 +15,7 @@ export function Hero() {
   // 🔓 Audio unlock (NO audible sound)
   useEffect(() => {
     const audio = new Audio("/typing.mp3");
-    audio.volume = 0.4;
+    audio.volume = 0.6;
     audio.muted = true;
 
     audio
