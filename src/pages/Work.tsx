@@ -7,7 +7,13 @@ import {
   Award,
 } from 'lucide-react';
 
-export function Work() {
+type Page = "home" | "services" | "about" | "work" | "contact";
+
+interface WorkProps {
+  setCurrentPage: (page: Page) => void;
+}
+
+export function Work({ setCurrentPage }: WorkProps) {
   const ref = useRef<HTMLDivElement | null>(null);
   const isInView = useInView(ref, { once: true, amount: 0.15 });
 
@@ -149,13 +155,16 @@ export function Work() {
             Let’s build a growth system that delivers predictable,
             high-quality business results.
           </p>
-          <a
-            href="#contact"
+          <button
+            onClick={() => {
+              setCurrentPage("contact");
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
             className="inline-flex items-center gap-2 bg-white text-black px-8 py-4 font-medium hover:bg-gray-100 transition"
           >
             Start Your Growth Journey
             <ArrowRight />
-          </a>
+          </button>
         </motion.div>
       </section>
     </div>

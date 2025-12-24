@@ -41,7 +41,7 @@ export function About() {
       description: 'From startups to Fortune 500 companies across 30+ industries.',
     },
     {
-      stat: '₹2.5lakh+',
+      stat: '₹5Lac.+',
       label: 'Revenue Generated',
       description: 'Measurable ROI and business impact for our clients.',
     },

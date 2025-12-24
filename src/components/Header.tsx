@@ -37,11 +37,11 @@ export function Header({ currentPage, setCurrentPage }: HeaderProps) {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-md
         ${
           isScrolled
-            ? "bg-white/70 backdrop-blur-xl border-b border-white/30 shadow-sm"
-            : "bg-transparent"
+            ? "bg-white/80 border-b border-white/30 shadow-md"
+            : "bg-white/30"
         }
       `}
     >
@@ -51,14 +51,14 @@ export function Header({ currentPage, setCurrentPage }: HeaderProps) {
           {/* LOGO + BRAND */}
            <button
   onClick={() => handleNavigation("home")}
-  className="flex items-center gap-3 h-full"
+  className="flex items-center gap-3 h-full flex-shrink-0"
 >
   {/* LOGO FIXED FOR WHITESPACE ISSUE */}
-  <div className="h-20 w-20 flex items-center justify-center overflow-hidden">
+  <div className="h-10 w-10 flex items-center justify-center overflow-hidden">
     <img
-      src="/glyphiix-logo.png"
+      src="/GLYPHIIX.svg"
       alt="Glyphiix Logo"
-      className="h-full w-full object-contain scale-[1.6]"
+      className="h-full w-full object-contain"
     />
   </div>
 

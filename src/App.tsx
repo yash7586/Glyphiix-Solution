@@ -15,17 +15,17 @@ export default function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'home':
-        return <Home />;
+        return <Home setCurrentPage={setCurrentPage} />;
       case 'services':
         return <ServicesPage />;
       case 'about':
         return <About />;
       case 'work':
-        return <Work />;
+        return <Work setCurrentPage={setCurrentPage} />;
       case 'contact':
         return <Contact />;
       default:
-        return <Home />;
+        return <Home setCurrentPage={setCurrentPage} />;
     }
   };
 

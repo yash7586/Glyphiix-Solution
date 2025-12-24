@@ -5,7 +5,13 @@ import { ArrowRight, Sparkles } from "lucide-react";
 const text = "Transform Your Business Into a Digital Powerhouse";
 const TYPING_SPEED = 100; // ms
 
-export function Hero() {
+type Page = "home" | "services" | "about" | "work" | "contact";
+
+interface HeroProps {
+  setCurrentPage: (page: Page) => void;
+}
+
+export function Hero({ setCurrentPage }: HeroProps) {
   const ref = useRef<HTMLHeadingElement>(null);
   const isInView = useInView(ref, { margin: "-100px" });
 
@@ -113,14 +119,23 @@ export function Hero() {
 
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
-            href="#"
+          <button
+            onClick={() => {
+              setCurrentPage("contact");
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
             className="group inline-flex items-center gap-2 px-8 py-4 bg-black text-white hover:bg-gray-800 transition-all"
           >
             Get Free Consultation
             <ArrowRight size={20} />
-          </a>
-          <button className="px-8 py-4 border-2 border-black hover:bg-black hover:text-white transition-all">
+          </button>
+          <button 
+            onClick={() => {
+              setCurrentPage("work");
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            className="px-8 py-4 border-2 border-black hover:bg-black hover:text-white transition-all"
+          >
             View Our Work
           </button>
         </div>

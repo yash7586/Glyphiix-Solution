@@ -5,15 +5,21 @@ import { USP } from '../components/USP';
 import { Testimonials } from '../components/Testimonials';
 import { CTABanner } from '../components/CTABanner';
 
-export function Home() {
+type Page = "home" | "services" | "about" | "work" | "contact";
+
+interface HomeProps {
+  setCurrentPage: (page: Page) => void;
+}
+
+export function Home({ setCurrentPage }: HomeProps) {
   return (
     <div>
-      <Hero />
+      <Hero setCurrentPage={setCurrentPage} />
       <Stats />
       <Services />
       <USP />
       <Testimonials />
-      <CTABanner />
+      <CTABanner setCurrentPage={setCurrentPage} />
     </div>
   );
 }
