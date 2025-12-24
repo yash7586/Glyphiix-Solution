@@ -20,8 +20,8 @@ export function Contact() {
           className="absolute -top-1/2 -right-1/2 w-full h-full bg-gradient-to-br from-gray-100/30 to-transparent rounded-full blur-3xl"
         />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-          <div className="max-w-4xl mx-auto text-center">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
+          <div className="max-w-7xl mx-auto text-center w-full">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -79,16 +79,16 @@ export function Contact() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-20"
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-20 w-full"
             >
-              <div className="p-6 bg-white border border-gray-200 hover:shadow-lg transition-shadow">
+              <div className="p-6 bg-white border border-gray-200 hover:shadow-lg transition-shadow overflow-hidden">
                 <Mail className="mx-auto mb-4" size={32} />
                 <h3 className="mb-2">Email Us</h3>
                 <a
-                  href="mailto:hello@apex.agency"
-                  className="text-gray-600 hover:text-black transition-colors"
+                  href="mailto:glyphiixsolution@gmail.com"
+                  className="text-gray-600 hover:text-black transition-colors text-sm block break-all"
                 >
-                  hello@apex.agency
+                  glyphiixsolution@gmail.com
                 </a>
               </div>
 
@@ -99,7 +99,7 @@ export function Contact() {
                   href="tel:+1234567890"
                   className="text-gray-600 hover:text-black transition-colors"
                 >
-                  +1 (234) 567-890
+                  +918750016908
                 </a>
               </div>
 
@@ -107,7 +107,7 @@ export function Contact() {
                 <MapPin className="mx-auto mb-4" size={32} />
                 <h3 className="mb-2">Location</h3>
                 <p className="text-gray-600">
-                  Global Operations
+                  Farrukhabad, U.P, India 209625
                 </p>
               </div>
 
@@ -209,7 +209,7 @@ export function Contact() {
             {[
               {
                 question: 'What\'s the investment range for your services?',
-                answer: 'Every project is unique, but most engagements range from $5K-$50K depending on scope and complexity. We work with businesses of all sizes and can customize packages to fit your budget and goals.',
+                answer: 'Every project is unique, but most engagements range from ₹15K-₹50K depending on scope and complexity. We work with businesses of all sizes and can customize packages to fit your budget and goals.',
               },
               {
                 question: 'How long does a typical project take?',
@@ -217,11 +217,11 @@ export function Contact() {
               },
               {
                 question: 'Do you work with startups or just established businesses?',
-                answer: 'We work with both! We\'ve helped pre-launch startups build their entire digital presence and Fortune 500 companies optimize their existing strategies. If you\'re serious about growth, we\'re interested.',
+                answer: 'We work with both! We\'ve helped pre-launch startups build their entire digital presence and Fortune 15+ companies optimize their existing strategies. If you\'re serious about growth, we\'re interested.',
               },
               {
-                question: 'What makes APEX different from other agencies?',
-                answer: 'Three things: (1) Results-first approach with clear KPIs, (2) Full-service capabilities—no need to juggle multiple vendors, (3) 15+ years of proven expertise with 98% client retention rate.',
+                question: 'What makes Glyphiix different from other agencies?',
+                answer: 'Three things: (1) Results-first approach with clear KPIs, (2) Full-service capabilities—no need to juggle multiple vendors, (3) 2.5+ years of proven expertise with 99.9% client retention rate.',
               },
               {
                 question: 'Do you offer ongoing support and maintenance?',

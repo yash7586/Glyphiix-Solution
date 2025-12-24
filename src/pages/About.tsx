@@ -219,7 +219,7 @@ export function About() {
             <Globe className="mx-auto mb-6" size={48} />
             <h3 className="text-3xl mb-4 text-white">Global Reach, Local Expertise</h3>
             <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-              We work with clients across 6 continents, bringing world-class digital solutions to businesses of all sizes. Whether you're in New York, London, Singapore, or anywhere in between—we deliver the same premium quality and personalized service.
+              We work with clients across India, bringing world-class digital solutions to businesses of all sizes. Whether you're in Delhi, Mumbai, Lucknow, or anywhere in between—we deliver the same premium quality and personalized service.
             </p>
           </motion.div>
         </div>
